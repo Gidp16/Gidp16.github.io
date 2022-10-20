@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.nav{
+    width: 100%;
+    background:#76D7C4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.logo{
+    text-align: center;
+    font-size: 25px;
+    color: #EAECEE ;
+    font-weight: 100;
+    
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+
+.foto-planeta{
+    height: 500px;
+    object-fit: cover;
+}
+
+.texto{
+    text-align:justify;
+    padding-left: 25px;
+    margin-top: 100px;
+    margin: 60px;
+}
+
+.contenedor{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    padding: 25px;
+}
+
+.contenedor-2{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.foto-mia{
+    padding: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.texto-2{
+    text-align:justify;
+    padding-right: 25px;
+    margin-top: 100px;
+    margin: 60px;
+}
+
+.contenedor-3 .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #76D7C4;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedor-3 .form .form-header .form-title span{
+    color: #76D7C4;
+}
+
+.contenedor-3 .form{
+    background: #D0ECE7;
+    width: 30%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+.contenedor-3 .form .form-label{
+    display: block;
+    color: #808B96 ;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    padding: 4px;
+}
+
+.contenedor-3 .form .form-input{
+    width: 100%;
+}
+
+.contenedor-3 .form .form-input .form-texarea{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #D0ECE7;
+}
+
+.contenedor-3 .form  .form-texarea{
+    font-family: "Quicksand", sans-serif;
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.contenedor-3 .form .btn-submit{
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20;
+    cursor: pointer;
+}
+
+.contenedor-4 .al-final{
+    align-items: center;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.logo-insta{
+    height: 40px;
+    align-items: center;
+}
+
+.logo-gmail{
+    height: 40px;
+}
+
+.logo-wsp{
+    height: 40px;
+}
